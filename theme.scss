@@ -6,6 +6,9 @@
 // 
 // Quickly modify global styling by enabling or disabling optional features.
   
+@import url('https://fonts.googleapis.com/css?family=Source Sans Pro'); 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'); 
+
 $enable-rounded:            true !default;
 $enable-shadows:            true;
 $enable-transitions:        true;
@@ -20,8 +23,8 @@ $enable-print-styles:       true;
 $theme-colors: (
   primary: #A2D0C0,
   secondary: #B0C9D9,
-  light: #f3f3f3,
-  dark: #575E60,
+  light: #f1f1f1,
+  dark: #567077,
   info: #e7ffc4,
   success: #28a745,
   warning: #415d63,
@@ -43,11 +46,20 @@ $link-color: #EB6E44;
 
 // Fonts
 $font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$headings-font-family: $font-family-base;
+$headings-font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+
+
 $display-font-family: $font-family-base;
 $font-weight-normal: 200;
 $headings-font-weight: 200;
-$lead-font-size:   1.30rem;
+
+//Studio Alex Toevoeging
+
+$display1-weight:             100 !default;
+$display2-weight:             100 !default;
+$display3-weight:             100 !default;
+$display4-weight:             100 !default;$lead-font-size:   1.30rem;
 
 
 
