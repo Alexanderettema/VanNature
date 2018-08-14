@@ -18,18 +18,23 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: #D3E397,
-  secondary: #EB6E44,
+  primary: #8bd6c7,
+  secondary: #f2f2ee,
   light: #f3f3f3,
-  dark: #7C786A,
-  info: #8DCDC1,
+  dark: #2c454a,
+  info: #a9e5da,
   success: #28a745,
-  warning: #ffc107,
+  warning: #415d63,
   danger: #dc3545
 );
 
 $body-bg: white;
-$body-color: #333;
+$body-color: #415d63;
+
+
+
+
+
 
 
 $body-color-inverse: invert($body-color) !default;
