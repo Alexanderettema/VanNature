@@ -159,3 +159,11 @@ html,body {
     background: linear-gradient($body-bg, transparentize($body-bg, 0.2),transparentize($body-bg, 0.9),transparentize($body-bg, 1));
 	}
 }
+//Studio Alex Media SM Logo smaller
+@media (max-width: 576px) {
+h1, .h1 {
+  font-size: 1.5rem; 
+  margin-bottom: 0rem;
+  }
+
+}
